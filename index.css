@@ -1,0 +1,141 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    list-style-position: outside;
+}
+/*
+PALETA DE COLORES
+#FB581C -anaranjado
+#E33419 -rojo/anaranjado
+#FA2828 -rojo
+#E31977 -rosa
+#FF13EE -morado/rosa
+*/
+/* ---------------------CABECERA----------------------------------------*/
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url("C:/Users/Roberto Méndez/Documents/GitHub/Blog Literario/Images/Libro_Banner.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-position: top center
+}
+/* ---------------------BOTONES----------------------------------------*/
+button img{
+    height: 35px;
+    width: 35px;
+    padding: 2px 0 2px 0;
+}
+button{
+    border-radius: 110%;
+    border: none;
+    padding: 1px 4px 1px 4px;
+}
+#Profile-button{
+    position: fixed;
+    right: 60px;
+    top: 10px;
+    animation: color_button_profile 5s alternate-reverse infinite;
+}
+#Home-button{
+    position: fixed;
+    right: 120px;
+    top: 10px;
+    background-color: rgb(255, 123, 0);
+}
+#Back-button{
+    position: fixed;
+    right: 180px;
+    top: 10px;
+    background-color: red;
+}
+/* ---------------------CONTENIDO----------------------------------------*/
+.contenido{
+    float: none;
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #ec3647;
+}
+#contenido-2{
+    width: 62%;
+}
+#contenido-3{
+    width: 100%;
+}
+.tittle{
+    width: 100%;
+    display: flex;
+    margin-top: 5em;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 2em;
+    margin: 0.67em 0;
+    width: 5em;
+    text-align: center;
+    background-color: white;
+    border-radius: 1em;
+}
+.number-1{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    font-size: 35px;
+    margin-right: 10px;
+    font-weight: 500;
+    background-color: #fdd07e;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listed-1{
+    width: 50%;
+}
+h2{
+    width: 30%;
+}
+.description{
+    width:100%;
+}
+.container-aside{
+    width: 30%;
+    margin: 5em 2em 5em;
+}
+#lateral{
+    height: 500px;
+    border-radius: 1em;
+    width: 100%;
+    background-color: #f091ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+footer {
+    background-color: #e9678e;
+    height: 50px;
+    width: 100%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes color_button_profile{
+    0%{background:#aae605}
+    25%{background:  #3adc3a}
+    75%{background:#aae605}
+    100%{background:  #3adc3a}
+}
