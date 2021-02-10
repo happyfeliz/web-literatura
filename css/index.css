@@ -1,0 +1,189 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    list-style-position: outside;
+}
+
+@media (max-width: 600px){
+    /* ---------------------CABECERA----------------------------------------*/
+    header{
+        width: 100%;
+        height: 300px;
+        background-image: url("../Images/Libro_Banner.jpg") ;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+        background-position: top center;
+}
+  }
+  
+  @media (min-width: 960px){
+    header{
+        width: 100%;
+        height: 300px;
+        background-image: url("../Images/Libro_Banner.jpg") ;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+        background-position: top center;
+    }
+  
+  }
+  
+  @media (min-height: 550px){
+    header{
+        width: 100%;
+        height: 200px;
+        background-image: url(../Images/Libro_Banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 200% auto;
+        background-attachment: fixed;
+        background-position: top center;
+  }
+
+/*
+PALETA DE COLORES
+#3b4657 -gris oscuro
+#idk -gris
+#ececec -blanco
+#7ad2b9 -celeste
+#176de4 -azul
+*/
+
+/* ---------------------BOTONES----------------------------------------*/
+button img{
+    height: 35px;
+    width: 35px;
+    padding: 2px 0 2px 0;
+}
+button{
+    border-radius: 110%;
+    border: none;
+    padding: 1px 4px 1px 4px;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+}
+#Profile-button{
+    position: fixed;
+    right: 60px;
+    top: 10px;
+    animation: color_button_profile 5s alternate-reverse infinite;
+}
+#Home-button{
+    position: fixed;
+    right: 120px;
+    top: 10px;
+    background-color: rgb(255, 123, 0);
+}
+#Back-button{
+    position: fixed;
+    right: 180px;
+    top: 10px;
+    background-color: red;
+}
+/* ---------------------CONTENIDO----------------------------------------*/
+.contenido{
+    float: none;
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: #ececec;
+}
+#contenido-2{
+    width: 62%;
+}
+#contenido-3{
+    width: 100%;
+}
+.tittle{
+    width: 100%;
+    display: flex;
+    margin-top: 5em;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#to-figuras-literarias:hover{
+    background-color: rgba(255, 255, 255, 0.707);
+}
+#contenido-4{
+    width: 100%;
+    display: inline-block;
+}
+h1{
+    font-size: 2em;
+    margin: 0.67em 0;
+    width: 5em;
+    text-align: center;
+    background-color: #7ad2b9;
+    color: white;
+    border-radius: 1em;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+}
+.number-1{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    font-size: 35px;
+    margin-right: 10px;
+    font-weight: 500;
+    background-color:#3b4657;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+}
+.listed-1{
+    width: 50%;
+    color: #3b4657;
+}
+h2{
+    width: 30%;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:55%;
+    color: #3b4657;
+    margin: 0 0 10px 0px;
+}
+.container-aside{
+    width: 30%;
+    margin: 5em 2em 5em;
+}
+#lateral{
+    height: 500px;
+    border-radius: 1em;
+    width: 100%;
+    background-color: #176de4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+}
+footer {
+    background-color: #176de4;
+    height: 50px;
+    width: 100%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes color_button_profile{
+    0%{background:#aae605}
+    25%{background:  #3adc3a}
+    75%{background:#aae605}
+    100%{background:  #3adc3a}
+}
