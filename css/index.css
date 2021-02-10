@@ -5,20 +5,10 @@
     list-style-position: outside;
 }
 
-@media (max-width: 600px){
-    /* ---------------------CABECERA----------------------------------------*/
-    header{
-        width: 100%;
-        height: 300px;
-        background-image: url("../Images/Libro_Banner.jpg") ;
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-attachment: fixed;
-        background-position: top center;
-}
-  }
-  
+    /*---------------------FOR LAPTOPS----------------------------------------*/
+
   @media (min-width: 960px){
+    /* CABECERA */
     header{
         width: 100%;
         height: 300px;
@@ -28,19 +18,225 @@
         background-attachment: fixed;
         background-position: top center;
     }
-  
+    
+    /* BOTONES */
+    button img{
+        height: 35px;
+        width: 35px;
+        padding: 2px 0 2px 0;
+    }
+    button{
+        border-radius: 110%;
+        border: none;
+        padding: 1px 4px 1px 4px;
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+    }
+    #Profile-button{
+        position: fixed;
+        right: 60px;
+        top: 10px;
+        animation: color_button_profile 5s alternate-reverse infinite;
+    }
+    #Home-button{
+        position: fixed;
+        right: 120px;
+        top: 10px;
+        background-color: rgb(255, 123, 0);
+    }
+    #Back-button{
+        position: fixed;
+        right: 180px;
+        top: 10px;
+        background-color: red;
+    }
+    #contenido-2{
+        width: 62%;
+    }
+    /* CONTENIDO */
+    .contenido{
+        float: none;
+        height: auto;
+        width: 100%;
+        display: flex;
+        background-color: #ececec;
+    }
+    #contenido-2{
+        width: 62%;
+    }
+    .container-aside{
+        width: 30%;
+        margin: 5em 2em 5em;
+    }
+    #lateral{
+        height: 500px;
+        border-radius: 1em;
+        width: 100%;
+        background-color: #176de4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        color: white;
+        font-weight: bolder;
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+    }
   }
-  
-  @media (min-height: 550px){
+
+    /* ---------------------FOR TABLETS----------------------------------------*/
+
+  @media (max-width: 959px){
+    /* CABECERA */
     header{
         width: 100%;
-        height: 200px;
+        height: 18em;
         background-image: url(../Images/Libro_Banner.jpg);
         background-repeat: no-repeat;
         background-size: 200% auto;
         background-attachment: fixed;
         background-position: top center;
-  }
+    }
+
+    /* BOTONES */
+    button img{
+        height: 35px;
+        width: 35px;
+        padding: 2px 0 2px 0;
+        }
+        button{
+        border-radius: 110%;
+        border: none;
+        padding: 1px 4px 1px 4px;
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+        }
+        #Profile-button{
+        position: fixed;
+        right: 60px;
+        top: 10px;
+        animation: color_button_profile 5s alternate-reverse infinite;
+        }
+        #Home-button{
+        position: fixed;
+        right: 120px;
+        top: 10px;
+        background-color: rgb(255, 123, 0);
+        }
+        #Back-button{
+        position: fixed;
+        right: 180px;
+        top: 10px;
+        background-color: red;
+        }
+    /* CONTENIDO */
+    .contenido{
+        float: none;
+        height: auto;
+        width: 100%;
+        display: flex;
+        background-color: #ececec;
+    }
+    #contenido-2{
+        width: 62%;
+    }
+    .container-aside{
+        width: 30%;
+        margin: 5em 2em 5em;
+    }
+    #lateral{
+        height: 500px;
+        border-radius: 1em;
+        width: 100%;
+        background-color: #176de4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        color: white;
+        font-weight: bolder;
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+    }
+}
+
+
+
+    /* ---------------------FOR PHONES---------------------------------------- */
+
+  @media (max-width: 400px){
+
+    /* CABECERA */
+    header{
+        width: 100%;
+        height: 13em;
+        background-image: url(../Images/Libro_Banner.jpg);
+        background-repeat: no-repeat;
+        background-size: 200% auto;
+        background-attachment: fixed;
+        background-position: top center;
+    }
+
+    /*  BOTONES */
+    button img{
+    height: 35px;
+    width: 35px;
+    padding: 2px 0 2px 0;
+    }
+    button{
+    border-radius: 110%;
+    border: none;
+    padding: 1px 4px 1px 4px;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+    }
+    #Profile-button{
+    position: fixed;
+    right: 60px;
+    top: 10px;
+    animation: color_button_profile 5s alternate-reverse infinite;
+    }
+    #Home-button{
+    position: fixed;
+    right: 120px;
+    top: 10px;
+    background-color: rgb(255, 123, 0);
+    }
+    #Back-button{
+    position: fixed;
+    right: 180px;
+    top: 10px;
+    background-color: red;
+    }
+    
+    /* CONTENIDO*/
+    .contenido{
+        float: none;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+        background-color: #ececec;
+    }
+    #contenido-2{
+        width: 100%;
+    }
+    .container-aside{
+        width: 100%;
+        margin: 1em 2em 2em 2em;
+        display: flex;
+    }
+    #lateral{
+        height: 18em;
+        border-radius: 1em;
+        width: 100%;
+        background-color: #176de4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        color: white;
+        font-weight: bolder;
+        box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+    }
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*
 PALETA DE COLORES
@@ -51,47 +247,7 @@ PALETA DE COLORES
 #176de4 -azul
 */
 
-/* ---------------------BOTONES----------------------------------------*/
-button img{
-    height: 35px;
-    width: 35px;
-    padding: 2px 0 2px 0;
-}
-button{
-    border-radius: 110%;
-    border: none;
-    padding: 1px 4px 1px 4px;
-    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
-}
-#Profile-button{
-    position: fixed;
-    right: 60px;
-    top: 10px;
-    animation: color_button_profile 5s alternate-reverse infinite;
-}
-#Home-button{
-    position: fixed;
-    right: 120px;
-    top: 10px;
-    background-color: rgb(255, 123, 0);
-}
-#Back-button{
-    position: fixed;
-    right: 180px;
-    top: 10px;
-    background-color: red;
-}
-/* ---------------------CONTENIDO----------------------------------------*/
-.contenido{
-    float: none;
-    height: auto;
-    width: 100%;
-    display: flex;
-    background-color: #ececec;
-}
-#contenido-2{
-    width: 62%;
-}
+
 #contenido-3{
     width: 100%;
 }
@@ -154,23 +310,7 @@ h2{
     color: #3b4657;
     margin: 0 0 10px 0px;
 }
-.container-aside{
-    width: 30%;
-    margin: 5em 2em 5em;
-}
-#lateral{
-    height: 500px;
-    border-radius: 1em;
-    width: 100%;
-    background-color: #176de4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    color: white;
-    font-weight: bolder;
-    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
-}
+
 footer {
     background-color: #176de4;
     height: 50px;
