@@ -81,6 +81,15 @@
         box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
     }
     /*--------------página dos----------------*/
+    .contenido-2-page2 {
+        width: 100%;
+        display: flex;
+        margin: 0 0 3em
+    }
+    .listed-1-page2{
+        width: 50%;
+        color: #3b4657;
+    }
   }
 
     /* ---------------------FOR TABLETS----------------------------------------*/
@@ -156,7 +165,16 @@
         box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
     }
     /*--------------página dos----------------*/
-
+    .contenido-2-page2 {
+        width: 100%;
+        display: flex;
+        margin: 0 0 3em;
+        /* flex-flow: wrap; */
+    }
+    .listed-1-page2{
+        width: 50%;
+        color: #3b4657;
+    }
 }
 
 
@@ -238,6 +256,17 @@
         box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
     }
     /*--------------página dos----------------*/
+    .contenido-2-page2 {
+        width: 100%;
+        display: flex;
+        margin: 0 0 3em;
+        flex-flow: wrap;
+    }
+    .listed-1-page2{
+        width: auto;
+        color: #3b4657;
+        font-size: 20px;
+    }
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------*/
@@ -330,4 +359,40 @@ footer {
     25%{background:  #3adc3a}
     75%{background:#aae605}
     100%{background:  #3adc3a}
+}
+
+/* pagina dos*/
+
+.contenido-1-page2{
+    width: 100%;
+    flex-flow: wrap;
+    display: flex;
+}
+
+.description-page2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #3b4657;
+    margin: 2em 2em 2em 2em;
+    font-size: 25px;
+}
+
+.h2-page2{
+    width: 40%;
+    font-size: 20px;
+}
+
+#conclusiones{
+    height: 2em;
+    /* text-align: center; */
+    background-color: #3b4657;
+    color: white;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 40%);
 }
