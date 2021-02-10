@@ -85,7 +85,7 @@
 
     /* ---------------------FOR TABLETS----------------------------------------*/
 
-  @media (min-width: 501px){
+  @media (min-width: 501px) and (max-width: 767px){
     /* CABECERA */
     header{
         width: 100%;
