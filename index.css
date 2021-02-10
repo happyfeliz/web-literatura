@@ -6,17 +6,17 @@
 }
 /*
 PALETA DE COLORES
-#FB581C -anaranjado
-#E33419 -rojo/anaranjado
-#FA2828 -rojo
-#E31977 -rosa
-#FF13EE -morado/rosa
+#3b4657 -gris oscuro
+#idk -gris
+#ececec -blanco
+#7ad2b9 -celeste
+#176de4 -azul
 */
 /* ---------------------CABECERA----------------------------------------*/
 header{
     width: 100%;
     height: 300px;
-    background-image: url("C:/Users/Roberto Méndez/Documents/GitHub/Blog Literario/Images/Libro_Banner.jpg") ;
+    background-image: url("C:/Users/Roberto Méndez/Documents/GitHub/Blog-Literario/Images/Libro_Banner.jpg") ;
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-attachment: fixed;
@@ -32,6 +32,7 @@ button{
     border-radius: 110%;
     border: none;
     padding: 1px 4px 1px 4px;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
 }
 #Profile-button{
     position: fixed;
@@ -57,7 +58,7 @@ button{
     height: auto;
     width: 100%;
     display: flex;
-    background-color: #ec3647;
+    background-color: #ececec;
 }
 #contenido-2{
     width: 62%;
@@ -74,18 +75,26 @@ button{
 }
 .container{
     width: 100%;
-    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#to-figuras-literarias:hover{
+    background-color: rgba(255, 255, 255, 0.707);
+}
+#contenido-4{
+    width: 100%;
+    display: inline-block;
 }
 h1{
     font-size: 2em;
     margin: 0.67em 0;
     width: 5em;
     text-align: center;
-    background-color: white;
+    background-color: #7ad2b9;
+    color: white;
     border-radius: 1em;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
 }
 .number-1{
     height: 50px;
@@ -94,20 +103,27 @@ h1{
     font-size: 35px;
     margin-right: 10px;
     font-weight: 500;
-    background-color: #fdd07e;
-    color: black;
+    background-color:#3b4657;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
 }
 .listed-1{
     width: 50%;
+    color: #3b4657;
 }
 h2{
     width: 30%;
 }
 .description{
-    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:55%;
+    color: #3b4657;
+    margin: 0 0 10px 0px;
 }
 .container-aside{
     width: 30%;
@@ -117,14 +133,17 @@ h2{
     height: 500px;
     border-radius: 1em;
     width: 100%;
-    background-color: #f091ba;
+    background-color: #176de4;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1em;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
 }
 footer {
-    background-color: #e9678e;
+    background-color: #176de4;
     height: 50px;
     width: 100%;
     font-weight: 800;
