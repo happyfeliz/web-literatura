@@ -85,7 +85,7 @@
 
     /* ---------------------FOR TABLETS----------------------------------------*/
 
-  @media (min-width: 600px){
+  @media (min-width: 501px){
     /* CABECERA */
     header{
         width: 100%;
@@ -163,7 +163,7 @@
 
     /* ---------------------FOR PHONES---------------------------------------- */
 
-  @media (max-width: 400px){
+  @media (max-width: 500px){
 
     /* CABECERA */
     header{
