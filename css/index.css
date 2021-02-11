@@ -644,3 +644,19 @@ div#container span.number-1-page2:hover{
 .container-3-page3s-2:hover{
     background-color: rgba(255, 255, 255, 0.707);
 }
+
+#happy-container{
+    position: fixed;
+    right: 90px;
+    top: 100px;
+    height: 80px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.707);
+    border-radius: 1em;
+    display: none;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    justify-content: center;
+    z-index: 3;
+}
