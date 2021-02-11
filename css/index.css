@@ -30,6 +30,7 @@
         border: none;
         padding: 1px 4px 1px 4px;
         box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+        cursor:pointer;
     }
     #Profile-button{
         position: fixed;
@@ -86,10 +87,20 @@
         display: flex;
         margin: 0 0 3em
     }
+    .container-number-page2{
+        width: auto;
+    }
     .listed-1-page2{
         width: 50%;
         color: #3b4657;
     }
+    .container-page2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
   }
 
     /* ---------------------FOR TABLETS----------------------------------------*/
@@ -111,6 +122,7 @@
         height: 35px;
         width: 35px;
         padding: 2px 0 2px 0;
+        cursor:pointer;
         }
         button{
         border-radius: 110%;
@@ -171,9 +183,18 @@
         margin: 0 0 3em;
         /* flex-flow: wrap; */
     }
+    .container-number-page2{
+        width: auto;
+    }
     .listed-1-page2{
         width: 50%;
         color: #3b4657;
+    }
+    .container-page2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -205,6 +226,7 @@
     border: none;
     padding: 1px 4px 1px 4px;
     box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+    cursor:pointer;
     }
     #Profile-button{
     position: fixed;
@@ -259,13 +281,23 @@
     .contenido-2-page2 {
         width: 100%;
         display: flex;
-        margin: 0 0 3em;
+        margin: 0 0 0em;
         flex-flow: wrap;
     }
+    .container-number-page2{
+        width: 20%;
+    }
     .listed-1-page2{
-        width: auto;
+        width: 50%;
         color: #3b4657;
         font-size: 20px;
+    }
+    .container-page2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1em;
     }
 }
 
@@ -376,12 +408,12 @@ footer {
     justify-content: center;
     width: 100%;
     color: #3b4657;
-    margin: 2em 2em 2em 2em;
+    margin: 2em 2em 0em 2em;
     font-size: 25px;
 }
 
 .h2-page2{
-    width: 40%;
+    width: 100%;
     font-size: 20px;
 }
 
@@ -411,4 +443,18 @@ footer {
     justify-content: center;
     margin: 2em;
     box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 40%);
+}
+
+div#container span.number-1-page2:hover{
+    background-color: rgba(255, 255, 255, 0.707);;
+}
+
+/* Figuras Retóricas */
+
+.contenido-1-retoricas{
+    width: 100%;
+    height: 1000px;
+    flex-flow: wrap;
+    display: flex;
+    background-color: #ececec;
 }
