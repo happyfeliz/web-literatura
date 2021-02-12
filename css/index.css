@@ -617,7 +617,7 @@
     justify-content: center;
     height: 12em;
     overflow: hidden;
-    top: 20em;
+    bottom: 0em;
     width: 100%;
     left: 0;
 }
