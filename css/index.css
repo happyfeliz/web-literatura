@@ -3,6 +3,7 @@
     text-decoration: none;
     list-style: none;
     list-style-position: outside;
+    outline: none;
 }
 
     /*---------------------FOR LAPTOPS----------------------------------------*/
@@ -884,24 +885,30 @@ a.container:hover {
     100% {color: transparent} 
 }
 
+@keyframes introduccion_intro{
+   0% {background-color: transparent}
+   100% {background-color: #7ad2b9}
+}
 
 /* scroll bar */
-:-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 15px;
     background: none;
     position: fixed;
 }
-.container::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 4px;
+::-webkit-scrollbar-thumb {
+    background: none;
+    border-radius: 10px;
 }
   
-.container::-webkit-scrollbar-thumb:active {
-    background-color: #999999;
+::-webkit-scrollbar-thumb:active {
+    background-color: #3b4657;
 }
   
-.container::-webkit-scrollbar-thumb:hover {
-    background: #b3b3b3;
+::-webkit-scrollbar-thumb:hover {
+    background: #3b46577a;
+    border-radius: 10px;
+
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 ::-webkit-scrollbar-track {
