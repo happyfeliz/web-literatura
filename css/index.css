@@ -130,7 +130,7 @@
     top: 5em;
     height: 80%;
     flex-flow: wrap;
-    background-color: #7ad2b9;
+    animation: introduccion_intro 2s;
 }
 
 #exit {
@@ -168,16 +168,18 @@
     height: 29em;
     overflow: scroll;
     overflow-x: hidden;
-    color: white;
+    animation: white_text 2s;
     margin: 5em 0.8em 0em;
+    color: white;
 }
 
 #imagen-contenedor{
     position: absolute;
     border-top-right-radius: 1em;
-    display: flex;
+    animation: image 2s;
     border-bottom-right-radius: 1em;
     justify-content: center;
+    align-items: center;
     height: 1389px;
     overflow: hidden;
     width: 48%;
@@ -346,7 +348,8 @@
     top: 5em;
     height: 80%;
     flex-flow: wrap;
-    background-color: #7ad2b9;
+    animation: introduccion_intro 2s;
+
 }
 
 #exit {
@@ -384,16 +387,18 @@
     height: 29em;
     overflow: scroll;
     overflow-x: hidden;
-    color: white;
+    animation: white_text 2s;
     margin: 5em 0.8em 0em;
+    color: white;
 }
 
 #imagen-contenedor{
     position: absolute;
     border-top-right-radius: 1em;
-    display: flex;
+    animation: image 2s;
     border-bottom-right-radius: 1em;
     justify-content: center;
+    align-items: center;
     height: 1389px;
     overflow: hidden;
     width: 48%;
@@ -564,7 +569,7 @@
     top: 5em;
     height: 80%;
     flex-flow: column;
-    background-color: #7ad2b9;
+    animation: introduccion_intro 2s;
 }
 
 #exit {
@@ -605,14 +610,15 @@
     height: 18.5em;
     overflow: scroll;
     overflow-x: hidden;
-    color: white;
+    animation: white_text 2s;
     margin: 1em 0.8em 0em;
+    color: white;
 }
 
 #imagen-contenedor{
     position: absolute;
     border-bottom-left-radius: 1em;
-    display: flex;
+    animation: image 2s;
     border-bottom-right-radius: 1em;
     justify-content: center;
     height: 12em;
@@ -876,6 +882,16 @@ a.container:hover {
     animation: happy_button 3s;
 }
 
+@keyframes white_text{
+    from{color: transparent;}
+    to{color: white;}
+}
+
+@keyframes image{
+    from{filter:opacity(0);}
+    to{filter:opacity(1);}
+}
+
 @keyframes happy_button{
     0% {color: transparent} 
     0% {background-color: none}
@@ -887,6 +903,8 @@ a.container:hover {
 
 @keyframes introduccion_intro{
    0% {background-color: transparent}
+   0% {color: transparent;}
+   100% {color: white;}
    100% {background-color: #7ad2b9}
 }
 

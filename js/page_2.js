@@ -31,6 +31,7 @@ var _exit = document.getElementById("exit")
 var _intro= document.getElementById("intro");
 
 _conclusions.addEventListener("click", (e)=>{
+    setTimeout(()=>{_intro.style.backgroundColor="#7ad2b9"},2000)
     _intro.style.display="flex";
 })
 
