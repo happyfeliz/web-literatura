@@ -25,3 +25,17 @@ _profile.addEventListener("click", (e)=>{ ;
     }
 
 })
+
+//page2
+
+var _conclusions = document.getElementById("conclusiones");
+var _exit = document.getElementById("exit")
+var _intro= document.getElementById("intro");
+
+_conclusions.addEventListener("click", (e)=>{
+    _intro.style.display="flex";
+})
+
+_intro.addEventListener("click", (e)=>{
+    _intro.style.display="none";
+})

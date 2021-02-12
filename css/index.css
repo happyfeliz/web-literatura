@@ -118,6 +118,71 @@
         align-items: center;
         justify-content: center;
     }
+    
+#intro{
+    position: fixed;
+    display: none;
+    border-radius: 1em;
+    width: 80%;
+    /* flex-flow: wrap; */
+    left: 6.5em;
+    top: 5em;
+    height: 80%;
+    flex-flow: wrap;
+    background-color: #7ad2b9;
+}
+
+#exit {
+    border-radius: 110%;
+    outline: none;
+    width: 1em;
+    background-color: #7ad2b9;
+    align-items: center;
+    font-weight: bolder;
+    position: fixed;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    color: white;
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    height: 1em;
+    padding: 20px;
+    box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 40%);
+    cursor: pointer;
+}
+
+#exit:hover {
+    box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 60%);
+}
+
+#intro-image {
+    width: auto;
+    height: 40%;
+}
+
+#intro-text {
+    font-weight: bolder;
+    width: 50%;
+    height: 29em;
+    overflow: scroll;
+    overflow-x: hidden;
+    color: white;
+    margin: 5em 0.8em 0em;
+}
+
+#imagen-contenedor{
+    position: absolute;
+    border-top-right-radius: 1em;
+    display: flex;
+    border-bottom-right-radius: 1em;
+    justify-content: center;
+    height: 1389px;
+    overflow: hidden;
+    width: 48%;
+    right: 0;
+}
+
     /* páginas tres */
     .contenido-1-page3s{
         display: flex;
@@ -269,6 +334,71 @@
         align-items: center;
         justify-content: center;
     }
+    
+#intro{
+    position: fixed;
+    display: none;
+    border-radius: 1em;
+    width: 80%;
+    /* flex-flow: wrap; */
+    left: 6.5em;
+    top: 5em;
+    height: 80%;
+    flex-flow: wrap;
+    background-color: #7ad2b9;
+}
+
+#exit {
+    border-radius: 110%;
+    outline: none;
+    width: 1em;
+    background-color: #7ad2b9;
+    align-items: center;
+    font-weight: bolder;
+    position: fixed;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    color: white;
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    height: 1em;
+    padding: 20px;
+    box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 40%);
+    cursor: pointer;
+}
+
+#exit:hover {
+    box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 60%);
+}
+
+#intro-image {
+    width: auto;
+    height: 40%;
+}
+
+#intro-text {
+    font-weight: bolder;
+    width: 50%;
+    height: 29em;
+    overflow: scroll;
+    overflow-x: hidden;
+    color: white;
+    margin: 5em 0.8em 0em;
+}
+
+#imagen-contenedor{
+    position: absolute;
+    border-top-right-radius: 1em;
+    display: flex;
+    border-bottom-right-radius: 1em;
+    justify-content: center;
+    height: 1389px;
+    overflow: hidden;
+    width: 48%;
+    right: 0;
+}
+
     /* páginas tres */
     .contenido-1-page3s{
         display: flex;
@@ -422,6 +552,76 @@
         align-items: center;
         justify-content: center;
     }
+    
+#intro{
+    position: fixed;
+    display: none;
+    border-radius: 1em;
+    width: 80%;
+    /* flex-flow: wrap; */
+    left: 3em;
+    top: 5em;
+    height: 80%;
+    flex-flow: column;
+    background-color: #7ad2b9;
+}
+
+#exit {
+    border-radius: 110%;
+    outline: none;
+    width: 1em;
+    background-color: #7ad2b9;
+    align-items: center;
+    font-weight: bolder;
+    position: fixed;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    bottom: 2.8em;
+    right: 2em;
+    z-index: 1;
+    color: white;
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    height: 1em;
+    padding: 20px;
+    box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 40%);
+    cursor: pointer;
+}
+
+#exit:hover {
+    box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 60%);
+}
+
+#intro-image {
+    width: auto;
+    height: 18em;
+}
+
+#intro-text {
+    font-weight: bolder;
+    width: 94%;
+    height: 18.5em;
+    overflow: scroll;
+    overflow-x: hidden;
+    color: white;
+    margin: 1em 0.8em 0em;
+}
+
+#imagen-contenedor{
+    position: absolute;
+    border-bottom-left-radius: 1em;
+    display: flex;
+    border-bottom-right-radius: 1em;
+    justify-content: center;
+    height: 12em;
+    overflow: hidden;
+    top: 20em;
+    width: 100%;
+    left: 0;
+}
+
+
     /* páginas tres */
     .contenido-1-page3s{
         display: flex;
@@ -604,6 +804,11 @@ footer {
     justify-content: center;
     margin: 2em;
     box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 40%);
+    cursor: pointer;
+}
+
+#conclusiones:hover{
+    box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 60%);
 }
 
 div#container span.number-1-page2:hover{
@@ -671,10 +876,40 @@ a.container:hover {
 }
 
 @keyframes happy_button{
-    0% {color: none} 
+    0% {color: transparent} 
     0% {background-color: none}
     25% {color: black} 
     25% {background-color: rgba(255, 255, 255, 0.707)}
     100% {background-color: none}
     100% {color: transparent} 
 }
+
+
+/* scroll bar */
+:-webkit-scrollbar {
+    width: 15px;
+    background: none;
+    position: fixed;
+}
+.container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+  
+.container::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+  
+.container::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-track {
+    background-color: #ececec;
+    border-radius: 10px;
+}
+
+#intro-text::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
