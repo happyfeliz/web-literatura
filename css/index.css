@@ -85,7 +85,7 @@
     .contenido-2-page2 {
         width: 100%;
         display: flex;
-        margin: 0 0 3em;
+        /*margin: 0 0 3em;*/
         flex-flow: wrap;
     }
     .container-number-page2{
@@ -96,18 +96,20 @@
         color: #3b4657;
     }
     .container-page2-1{
+        margin: 1em;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        margin: 1em;
+        margin: 1.5em;
     }
     .container-page2-2{
+        margin: 1em;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        margin: 1em;
+        margin: 1.5em;
     }
     .contenido-4-page2{
         width: 100%;
@@ -140,7 +142,7 @@
         width: 80%;
         align-items: center;
         justify-content: flex-end;
-        padding: 2em;
+        padding: 1.5em;
     }
 
     .container-3-page3s-2{
@@ -148,7 +150,7 @@
         width: 80%;
         align-items: center;
         justify-content: flex-start;
-        padding: 2em;
+        padding: 1.5em;
     }
     .listed-1-page3s{
         width: 50%;
@@ -234,7 +236,7 @@
         width: 100%;
         display: flex;
         flex-flow: wrap;
-        margin: 0 0 3em;
+        /*margin: 0 0 3em;*/
         /* flex-flow: wrap; */
     }
     .container-number-page2{
@@ -245,18 +247,20 @@
         color: #3b4657;
     }
     .container-page2-1{
+        margin: 1em;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        margin: 1em;
+        margin: 1.5em;
     }
     .container-page2-2{
+        margin: 1em;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        margin: 1em;
+        margin: 1.5em;
     }
     .contenido-4-page2{
         width: 100%;
@@ -288,13 +292,14 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        padding: 2em;
+        padding: 1.5em;
     }
     
     .container-3-page3s-2{
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        padding: 1.5em;
     }
     .listed-1-page3s{
         width: 80%;
