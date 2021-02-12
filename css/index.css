@@ -651,7 +651,6 @@ div#container span.number-1-page2:hover{
     top: 100px;
     height: 80px;
     width: 100px;
-    background-color: rgba(255, 255, 255, 0.707);
     border-radius: 1em;
     display: none;
     align-items: center;
@@ -659,4 +658,14 @@ div#container span.number-1-page2:hover{
     font-weight: bolder;
     justify-content: center;
     z-index: 3;
+    animation: happy_button 3s;
+}
+
+@keyframes happy_button{
+    0% {color: none} 
+    0% {background-color: none}
+    25% {color: black} 
+    25% {background-color: rgba(255, 255, 255, 0.707)}
+    100% {background-color: none}
+    100% {color: none} 
 }

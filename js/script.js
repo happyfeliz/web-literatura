@@ -18,9 +18,8 @@ function disdisplayed(){ ;
 
 _profile.addEventListener("click", (e)=>{ ;
     if (happy){
-        setTimeout(display)
-        1000 ;
-        disdisplayed();
+        setTimeout(display,100);
+        setTimeout(disdisplayed,3000);
     }else{
         disdisplayed();
     }
