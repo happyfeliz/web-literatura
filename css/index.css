@@ -1108,7 +1108,18 @@ a.container:hover {
     border-radius: 1em;
 }
 
-#next{
+#figura1-page3s-ej{
+    width: 100%;
+    height: 100%;
+    background-color: #7ad2b9;
+    display: none;
+    position: fixed;
+    top: 0;
+    flex-flow: wrap;
+}
+
+/* botones de salida */
+.next{
     background-image: url(../Images/arrow-right-short.svg);
     background-repeat: no-repeat;
     background-size: 40px;

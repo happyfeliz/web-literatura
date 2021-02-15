@@ -37,18 +37,25 @@ _profile.addEventListener("click", (e)=>{ ;
 var _definicionFiguras = document.getElementById("definicion-page3s");
 var mainDefinicion=false;
 var mainCaracteristics=false;
-var n
+var _next = document.getElementsByClassName("next")
+var number
 
 document.getElementById("definicion").addEventListener("click", (e)=>{
     _definicionFiguras.style.display="flex";
+    number=0
+    console.log(number)
 })
 
 document.getElementById("caracteristicas").addEventListener("click", (e)=>{
     document.getElementById("caracter-page3s").style.display="flex";
+    number=1
+    console.log(number)
 })
 
 document.getElementById("figura1").addEventListener("click", (e)=>{
     document.getElementById("figura1-page3s").style.display="flex";
+    number=2
+    console.log(number)
 })
 
 document.getElementById("figura2").addEventListener("click", (e)=>{
@@ -81,20 +88,78 @@ document.getElementById("figura7").addEventListener("click", (e)=>{
     figura1=true;
 })
 
-_exit[0].addEventListener("click", (e)=>{
-    _definicionFiguras.style.display="none";
-    mainDefinicion=false;
-    console.log(mainDefinicion);
+_next[0].addEventListener("click",(e)=>{
+    document.getElementById("figura1-page3s").style.display="none";
+    document.getElementById("figura1-page3s-ej").style.display="flex";
 })
+
+
+var _exit2 = _exit[number]
+
+_exit[0].addEventListener("click",(e)=>{
+    _definicionFiguras.style.display="none"
+})
+
 
 _exit[1].addEventListener("click", (e)=>{
     document.getElementById("caracter-page3s").style.display="none";
-    mainCaracteristics=false;
-    console.log(mainCaracteristics);
 })
 
 _exit[2].addEventListener("click", (e)=>{
     document.getElementById("figura1-page3s").style.display="none";
-    figura1=false;
-    console.log(figura1);
 })
+
+_exit[3].addEventListener("click", (e)=>{
+    document.getElementById("figura1-page3s-ej").style.display="none";
+})
+
+/*
+
+_exit2.addEventListener("click", (e)=>{
+    _exit2.style.display="none";
+})
+
+_exit.addEventListener("click", (e)=>{
+    switch(number){
+        case 0:
+            _definicionFiguras.style.display="none";
+            break
+        case 1:
+            document.getElementById("caracter-page3s").style.display="none";
+            break;
+        case 2:
+            document.getElementById("figura1-page3s").style.display="none";
+            break;
+        case 3:
+            document.getElementById("figura1-page3s-ej").style.display="none";
+            break;
+    }
+})
+
+
+function close(number){
+    switch(number){
+        case 0:
+            _definicionFiguras.style.display="none";
+            break
+        case 1:
+            document.getElementById("caracter-page3s").style.display="none";
+            break
+        case 2:
+            document.getElementById("figura1-page3s").style.display="none"
+            break
+        case 3:
+            document.getElementById("figura1-page3s-ej").style.display="none"
+    }
+}
+
+_exit[number].addEventListener("click",close(number))
+
+
+_exit[number].addEventListener("click", (e)=>{
+    document.getElementById("caracter-page3s").style.display="none";
+})
+
+_exit[number].addEventListener("click", (e)=>{
+    document.getElementById("figura1-page3s").style.display="none";
+})*/
