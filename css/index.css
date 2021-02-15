@@ -254,6 +254,7 @@
         border: none;
         padding: 1px 4px 1px 4px;
         box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
+        z-index: 3;
         }
         #Profile-button{
         position: fixed;
@@ -475,6 +476,7 @@
     padding: 1px 4px 1px 4px;
     box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.40);
     cursor:pointer;
+    z-index: 3;
     }
     #Profile-button{
     position: fixed;
@@ -866,9 +868,11 @@ a.container:hover {
 }
 .container-3-page3s-1:hover{
     background-color: rgba(255, 255, 255, 0.707);
+    cursor: pointer;
 }
 .container-3-page3s-2:hover{
     background-color: rgba(255, 255, 255, 0.707);
+    cursor: pointer;
 }
 
 #happy-container{
@@ -887,6 +891,8 @@ a.container:hover {
     animation: happy_button 3s;
 }
 
+/* definición principal*/
+
 #definicion-page3s{
     width: 100%;
     height: 100%;
@@ -902,7 +908,6 @@ a.container:hover {
     height: 100%;
     overflow: hidden;
     background-color: #7ad2b9;
-    display: none;
     position: fixed;
     top: 0;
 }
@@ -964,6 +969,179 @@ a.container:hover {
     border-radius: 1em;
 }
 
+/* características principal */
+
+#caracter-page3s {
+    width: 100%;
+    flex-flow: wrap;
+    display: none;
+    height: 100%;
+    overflow: hidden;
+    background-color: #7ad2b9;
+    position: fixed;
+    top: 0;
+}
+
+#tittle-main-caracter-container {
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    width: 100%;
+    height: 9em;
+}
+
+#tittle-main-caracter {
+    width: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 2em; */
+    margin-left: 10em;
+}
+
+#main-caracter-content-container {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    flex-flow: wrap;
+    width: -webkit-fill-available;
+}
+
+#main-caracter-content-tittle {
+    margin-left: 1em;
+    background-color: #ececec;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    align-items: center;
+    width: 33em;
+    margin-bottom: 1em;
+    height: -webkit-fill-available;
+    top: 0;
+    margin-top: 1em;
+    position: relative;
+}
+
+#main-caracter-content-image-container {
+    width: 24em;
+    /* background-color: #fff; */
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+#main-caracter-content-image {
+    height: 32em;
+    border-radius: 1em;
+}
+
+/*Figura 1*/
+
+#figura1-page3s{
+    width: 100%;
+    height: 100%;
+    background-color: #7ad2b9;
+    display: none;
+    position: fixed;
+    top: 0;
+    flex-flow: wrap;
+}
+
+#tittle-figura1-container {
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    width: 100%;
+    height: 9em;
+}
+
+#tittle-figura1 {
+    width: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 2em; */
+    margin-left: 10em;
+}
+
+#figura1-content-container {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    flex-flow: wrap;
+    width: -webkit-fill-available;
+}
+
+#figura1-content-tittle {
+    margin-left: 1em;
+    background-color: #ececec;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    align-items: center;
+    width: 33em;
+    margin-bottom: 1em;
+    height: -webkit-fill-available;
+    top: 0;
+    margin-top: 1em;
+    position: relative;
+}
+
+#figura1-content-image-container {
+    width: 24em;
+    /* background-color: #fff; */
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+#figura1-content-image {
+    height: 32em;
+    border-radius: 1em;
+}
+
+#next{
+    background-image: url(../Images/arrow-right-short.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 50px;
+    background-position: center;
+    position: fixed;
+    bottom: 10em;
+    right: 2em;
+    height: 50px;
+}
+
+.exit {
+    border-radius: 110%;
+    outline: none;
+    width: 1em;
+    background-color: #7ad2b9;
+    align-items: center;
+    font-weight: bolder;
+    position: fixed;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    top: 1.8em;
+    left: 2em;
+    z-index: 1;
+    color: white;
+    font-size: 1.5em;
+    justify-content: center;
+    display: flex;
+    height: 1em;
+    padding: 20px;
+    box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 40%);
+    cursor: pointer;
+}
 @keyframes white_text{
     from{color: transparent;}
     to{color: white;}

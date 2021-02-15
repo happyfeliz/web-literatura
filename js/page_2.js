@@ -27,7 +27,7 @@ _profile.addEventListener("click", (e)=>{ ;
 })
 
 var _conclusions = document.getElementById("conclusiones");
-var _exit = document.getElementById("exit")
+var _exit = document.getElementById("exit");
 var _intro= document.getElementById("intro");
 
 
