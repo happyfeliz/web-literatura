@@ -52,6 +52,8 @@ document.getElementById("caracteristicas").addEventListener("click", (e)=>{
     console.log(number)
 })
 
+
+//abrir cada figura
 document.getElementById("figura1").addEventListener("click", (e)=>{
     document.getElementById("figura1-page3s").style.display="flex";
     number=2
@@ -59,7 +61,7 @@ document.getElementById("figura1").addEventListener("click", (e)=>{
 })
 
 document.getElementById("figura2").addEventListener("click", (e)=>{
-    document.getElementById("figura1-page3s").style.display="flex";
+    document.getElementById("figura2-page3s").style.display="flex";
     figura1=true;
 })
 
@@ -88,13 +90,24 @@ document.getElementById("figura7").addEventListener("click", (e)=>{
     figura1=true;
 })
 
+
+//botón next
 _next[0].addEventListener("click",(e)=>{
     document.getElementById("figura1-page3s").style.display="none";
     document.getElementById("figura1-page3s-ej").style.display="flex";
 })
 
+_next[1].addEventListener("click",(e)=>{
+    document.getElementById("figura1-page3s-ej").style.display="none";
+    document.getElementById("figura2-page3s").style.display="flex";
+})
 
-var _exit2 = _exit[number]
+_next[2].addEventListener("click",(e)=>{
+    document.getElementById("figura2-page3s").style.display="none";
+    document.getElementById("figura2-page3s-ej").style.display="flex";
+})
+
+//botón exit
 
 _exit[0].addEventListener("click",(e)=>{
     _definicionFiguras.style.display="none"
@@ -111,6 +124,14 @@ _exit[2].addEventListener("click", (e)=>{
 
 _exit[3].addEventListener("click", (e)=>{
     document.getElementById("figura1-page3s-ej").style.display="none";
+})
+
+_exit[4].addEventListener("click", (e)=>{
+    document.getElementById("figura2-page3s").style.display="none";
+})
+
+_exit[5].addEventListener("click", (e)=>{
+    document.getElementById("figura2-page3s-ej").style.display="none";
 })
 
 /*
