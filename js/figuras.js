@@ -176,6 +176,11 @@ _next[15].addEventListener("click",(e)=>{
     document.getElementById("figura9-page3s").style.display="flex";
 })
 
+_next[16].addEventListener("click",(e)=>{
+    document.getElementById("figura9-page3s").style.display="none";
+    document.getElementById("figura9-page3s-ej").style.display="flex";
+})
+
 //botón comeback
 _comeback[0].addEventListener("click",(e)=>{
     document.getElementById("figura1-page3s-ej").style.display="none";
