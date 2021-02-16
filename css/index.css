@@ -296,6 +296,23 @@
     position: relative;
 }
 
+#figura1-content-tittle-1 {
+    margin-left: 1em;
+    background-color: #ececec;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    align-items: center;
+    width: 33em;
+    margin-bottom: 1em;
+    height: -webkit-fill-available;
+    top: 0;
+    margin-top: 1em;
+    position: relative;
+}
+
+
 #figura1-content-tittle2 {
     margin-left: 1em;
     background-color: #ececec;
@@ -745,6 +762,22 @@
     padding: 10px;
     align-items: center;
     height: 45%;
+    top: 0;
+    margin-top: 1em;
+    position: relative;
+}
+
+#figura1-content-tittle-1 {
+    margin-left: 1em;
+    background-color: #ececec;
+    border-radius: 1em;
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    align-items: center;
+    width: 33em;
+    margin-bottom: 1em;
+    height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
     position: relative;
