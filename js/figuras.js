@@ -38,6 +38,7 @@ var _definicionFiguras = document.getElementById("definicion-page3s");
 var mainDefinicion=false;
 var mainCaracteristics=false;
 var _next = document.getElementsByClassName("next")
+var _comeback = document.getElementsByClassName("comeback")
 var number
 
 document.getElementById("definicion").addEventListener("click", (e)=>{
@@ -56,37 +57,40 @@ document.getElementById("caracteristicas").addEventListener("click", (e)=>{
 //abrir cada figura
 document.getElementById("figura1").addEventListener("click", (e)=>{
     document.getElementById("figura1-page3s").style.display="flex";
-    number=2
-    console.log(number)
 })
 
 document.getElementById("figura2").addEventListener("click", (e)=>{
     document.getElementById("figura2-page3s").style.display="flex";
-    figura1=true;
 })
 
 document.getElementById("figura3").addEventListener("click", (e)=>{
-    document.getElementById("figura1-page3s").style.display="flex";
-    figura1=true;
+    document.getElementById("figura3-page3s").style.display="flex";
 })
 
 document.getElementById("figura4").addEventListener("click", (e)=>{
-    document.getElementById("figura1-page3s").style.display="flex";
-    figura1=true;
+    document.getElementById("figura4-page3s").style.display="flex";
 })
 
 document.getElementById("figura5").addEventListener("click", (e)=>{
-    document.getElementById("figura1-page3s").style.display="flex";
-    figura1=true;
+    document.getElementById("figura5-page3s").style.display="flex";
 })
 
 document.getElementById("figura6").addEventListener("click", (e)=>{
-    document.getElementById("figura1-page3s").style.display="flex";
+    document.getElementById("figura6-page3s").style.display="flex";
     figura1=true;
 })
 
 document.getElementById("figura7").addEventListener("click", (e)=>{
-    document.getElementById("figura1-page3s").style.display="flex";
+    document.getElementById("figura7-page3s").style.display="flex";
+    figura1=true;
+})
+
+document.getElementById("figura8").addEventListener("click", (e)=>{
+    document.getElementById("figura8-page3s").style.display="flex";
+    figura1=true;
+})
+document.getElementById("figura9").addEventListener("click", (e)=>{
+    document.getElementById("figura9-page3s").style.display="flex";
     figura1=true;
 })
 
@@ -105,6 +109,157 @@ _next[1].addEventListener("click",(e)=>{
 _next[2].addEventListener("click",(e)=>{
     document.getElementById("figura2-page3s").style.display="none";
     document.getElementById("figura2-page3s-ej").style.display="flex";
+})
+
+_next[3].addEventListener("click",(e)=>{
+    document.getElementById("figura2-page3s-ej").style.display="none";
+    document.getElementById("figura3-page3s").style.display="flex";
+})
+
+_next[4].addEventListener("click",(e)=>{
+    document.getElementById("figura3-page3s").style.display="none";
+    document.getElementById("figura3-page3s-ej").style.display="flex";
+})
+
+_next[5].addEventListener("click",(e)=>{
+    document.getElementById("figura3-page3s-ej").style.display="none";
+    document.getElementById("figura4-page3s").style.display="flex";
+})
+
+_next[6].addEventListener("click",(e)=>{
+    document.getElementById("figura4-page3s").style.display="none";
+    document.getElementById("figura4-page3s-ej").style.display="flex";
+})
+
+_next[7].addEventListener("click",(e)=>{
+    document.getElementById("figura4-page3s-ej").style.display="none";
+    document.getElementById("figura5-page3s").style.display="flex";
+})
+
+_next[8].addEventListener("click",(e)=>{
+    document.getElementById("figura5-page3s").style.display="none";
+    document.getElementById("figura5-page3s-ej").style.display="flex";
+})
+
+_next[9].addEventListener("click",(e)=>{
+    document.getElementById("figura5-page3s-ej").style.display="none";
+    document.getElementById("figura6-page3s").style.display="flex";
+})
+
+_next[10].addEventListener("click",(e)=>{
+    document.getElementById("figura6-page3s").style.display="none";
+    document.getElementById("figura6-page3s-ej").style.display="flex";
+})
+
+_next[11].addEventListener("click",(e)=>{
+    document.getElementById("figura6-page3s-ej").style.display="none";
+    document.getElementById("figura7-page3s").style.display="flex";
+})
+
+_next[12].addEventListener("click",(e)=>{
+    document.getElementById("figura7-page3s").style.display="none";
+    document.getElementById("figura7-page3s-ej").style.display="flex";
+})
+
+_next[13].addEventListener("click",(e)=>{
+    document.getElementById("figura7-page3s-ej").style.display="none";
+    document.getElementById("figura8-page3s").style.display="flex";
+})
+
+_next[14].addEventListener("click",(e)=>{
+    document.getElementById("figura8-page3s").style.display="none";
+    document.getElementById("figura8-page3s-ej").style.display="flex";
+})
+
+_next[15].addEventListener("click",(e)=>{
+    document.getElementById("figura8-page3s-ej").style.display="none";
+    document.getElementById("figura9-page3s").style.display="flex";
+})
+
+//botón comeback
+_comeback[0].addEventListener("click",(e)=>{
+    document.getElementById("figura1-page3s-ej").style.display="none";
+    document.getElementById("figura1-page3s").style.display="flex";
+})
+
+_comeback[1].addEventListener("click",(e)=>{
+    document.getElementById("figura2-page3s").style.display="none";
+    document.getElementById("figura1-page3s-ej").style.display="flex";
+})
+
+_comeback[2].addEventListener("click",(e)=>{
+    document.getElementById("figura2-page3s-ej").style.display="none";
+    document.getElementById("figura2-page3s").style.display="flex";
+})
+
+_comeback[3].addEventListener("click",(e)=>{
+    document.getElementById("figura3-page3s").style.display="none";
+    document.getElementById("figura2-page3s-ej").style.display="flex";
+})
+
+_comeback[4].addEventListener("click",(e)=>{
+    document.getElementById("figura3-page3s-ej").style.display="none";
+    document.getElementById("figura3-page3s").style.display="flex";
+})
+
+_comeback[5].addEventListener("click",(e)=>{
+    document.getElementById("figura4-page3s").style.display="none";
+    document.getElementById("figura3-page3s-ej").style.display="flex";
+})
+
+_comeback[6].addEventListener("click",(e)=>{
+    document.getElementById("figura4-page3s-ej").style.display="none";
+    document.getElementById("figura4-page3s").style.display="flex";
+})
+
+_comeback[7].addEventListener("click",(e)=>{
+    document.getElementById("figura5-page3s").style.display="none";
+    document.getElementById("figura4-page3s-ej").style.display="flex";
+})
+
+_comeback[8].addEventListener("click",(e)=>{
+    document.getElementById("figura5-page3s-ej").style.display="none";
+    document.getElementById("figura5-page3s").style.display="flex";
+})
+
+_comeback[9].addEventListener("click",(e)=>{
+    document.getElementById("figura6-page3s").style.display="none";
+    document.getElementById("figura5-page3s-ej").style.display="flex";
+})
+
+_comeback[10].addEventListener("click",(e)=>{
+    document.getElementById("figura6-page3s-ej").style.display="none";
+    document.getElementById("figura6-page3s").style.display="flex";
+})
+
+_comeback[11].addEventListener("click",(e)=>{
+    document.getElementById("figura7-page3s").style.display="none";
+    document.getElementById("figura6-page3s-ej").style.display="flex";
+})
+
+_comeback[12].addEventListener("click",(e)=>{
+    document.getElementById("figura7-page3s-ej").style.display="none";
+    document.getElementById("figura7-page3s").style.display="flex";
+})
+
+_comeback[13].addEventListener("click",(e)=>{
+    document.getElementById("figura8-page3s").style.display="none";
+    document.getElementById("figura7-page3s-ej").style.display="flex";
+})
+
+_comeback[14].addEventListener("click",(e)=>{
+    document.getElementById("figura8-page3s-ej").style.display="none";
+    document.getElementById("figura8-page3s").style.display="flex";
+})
+
+_comeback[15].addEventListener("click",(e)=>{
+    document.getElementById("figura9-page3s").style.display="none";
+    document.getElementById("figura8-page3s-ej").style.display="flex";
+})
+
+_comeback[16].addEventListener("click",(e)=>{
+    document.getElementById("figura9-page3s-ej").style.display="none";
+    document.getElementById("figura9-page3s").style.display="flex";
 })
 
 //botón exit
@@ -134,6 +289,55 @@ _exit[5].addEventListener("click", (e)=>{
     document.getElementById("figura2-page3s-ej").style.display="none";
 })
 
+_exit[6].addEventListener("click", (e)=>{
+    document.getElementById("figura3-page3s").style.display="none";
+})
+
+_exit[7].addEventListener("click", (e)=>{
+    document.getElementById("figura3-page3s-ej").style.display="none";
+})
+_exit[8].addEventListener("click", (e)=>{
+    document.getElementById("figura4-page3s").style.display="none";
+})
+
+_exit[9].addEventListener("click", (e)=>{
+    document.getElementById("figura4-page3s-ej").style.display="none";
+})
+_exit[10].addEventListener("click", (e)=>{
+    document.getElementById("figura5-page3s").style.display="none";
+})
+
+_exit[11].addEventListener("click", (e)=>{
+    document.getElementById("figura5-page3s-ej").style.display="none";
+})
+_exit[12].addEventListener("click", (e)=>{
+    document.getElementById("figura6-page3s").style.display="none";
+})
+
+_exit[13].addEventListener("click", (e)=>{
+    document.getElementById("figura6-page3s-ej").style.display="none";
+})
+_exit[14].addEventListener("click", (e)=>{
+    document.getElementById("figura7-page3s").style.display="none";
+})
+
+_exit[15].addEventListener("click", (e)=>{
+    document.getElementById("figura7-page3s-ej").style.display="none";
+})
+_exit[16].addEventListener("click", (e)=>{
+    document.getElementById("figura8-page3s").style.display="none";
+})
+
+_exit[17].addEventListener("click", (e)=>{
+    document.getElementById("figura8-page3s-ej").style.display="none";
+})
+_exit[18].addEventListener("click", (e)=>{
+    document.getElementById("figura9-page3s").style.display="none";
+})
+
+_exit[19].addEventListener("click", (e)=>{
+    document.getElementById("figura9-page3s-ej").style.display="none";
+})
 /*
 
 _exit2.addEventListener("click", (e)=>{
