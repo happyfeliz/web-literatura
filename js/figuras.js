@@ -53,6 +53,26 @@ document.getElementById("caracteristicas").addEventListener("click", (e)=>{
     console.log(number)
 })
 
+document.getElementById("integrantes-text").addEventListener("mouseover", (e)=>{
+    document.getElementById("integrantes-1").innerHTML+="Fulano";
+    document.getElementById("integrantes-2").innerHTML+="Zutano";
+    document.getElementById("integrantes-3").innerHTML+="Troyano";
+    document.getElementById("integrantes-4").innerHTML+="Malardo";
+    document.getElementById("integrantes-5").innerHTML+="Calamardo";
+    //document.getElementById("integrantes-text").createElement("<p>").setAttribute("class","integrantes-p").innerHTML+= "Juanito García"
+    
+})
+
+document.getElementById("integrantes-text").addEventListener("mouseout", (e)=>{
+    document.getElementById("integrantes-1").innerHTML-="Fulano";
+    document.getElementById("integrantes-2").innerHTML-="Zutano";
+    document.getElementById("integrantes-3").innerHTML-="Troyano";
+    document.getElementById("integrantes-4").innerHTML-="Malardo";
+    document.getElementById("integrantes-5").innerHTML-="Calamardo";
+    //document.getElementById("integrantes-text").createElement("<p>").setAttribute("class","integrantes-p").innerHTML+= "Juanito García"
+    
+})
+
 
 //abrir cada figura
 document.getElementById("figura1").addEventListener("click", (e)=>{
