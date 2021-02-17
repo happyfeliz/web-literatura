@@ -4648,6 +4648,17 @@ a.container:hover {
     background-color: #3b4657;
     transition: height 0.5s;
     animation: white_text 1.5s;
+    overflow: hidden;
+}
+
+
+body{
+    animation: body 1s;
+}
+
+@keyframes body {
+    from{filter: opacity(0);}
+    to {filter: opacity(1);}
 }
 
 #integrantes-text:hover{
