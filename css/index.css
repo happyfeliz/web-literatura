@@ -4655,7 +4655,7 @@ a.container:hover {
     transition: height 0.5s;
 }
 
-#integrantes{
+p.integrantes {
     display: none;
 }
 
