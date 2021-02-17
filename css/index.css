@@ -1881,11 +1881,13 @@ ul{
 }
 
 #tittle-figura3 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura3-content-container {
@@ -2012,11 +2014,13 @@ ul{
 }
 
 #tittle-figura4 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura4-content-container {
@@ -2143,11 +2147,13 @@ ul{
 }
 
 #tittle-figura5 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura5-content-container {
@@ -2274,11 +2280,13 @@ ul{
 }
 
 #tittle-figura6 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura6-content-container {
@@ -2405,11 +2413,13 @@ ul{
 }
 
 #tittle-figura7 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura7-content-container {
@@ -2536,11 +2546,13 @@ ul{
 }
 
 #tittle-figura8 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura8-content-container {
@@ -2667,11 +2679,13 @@ ul{
 }
 
 #tittle-figura9 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura9-content-container {
@@ -2774,8 +2788,6 @@ ul{
     flex-flow: wrap;
     border-radius: 1em;
 }
-
-
 
 }
 
@@ -3329,11 +3341,13 @@ ul{
 }
 
 #tittle-figura3 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura3-content-container {
@@ -3460,11 +3474,13 @@ ul{
 }
 
 #tittle-figura4 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura4-content-container {
@@ -3591,11 +3607,13 @@ ul{
 }
 
 #tittle-figura5 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura5-content-container {
@@ -3722,11 +3740,13 @@ ul{
 }
 
 #tittle-figura6 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura6-content-container {
@@ -3853,11 +3873,13 @@ ul{
 }
 
 #tittle-figura7 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura7-content-container {
@@ -3984,11 +4006,13 @@ ul{
 }
 
 #tittle-figura8 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura8-content-container {
@@ -4115,11 +4139,13 @@ ul{
 }
 
 #tittle-figura9 {
-    width: 12em;
+    width: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 16%;
+    background: none;
+    box-shadow: none;
 }
 
 #figura9-content-container {
