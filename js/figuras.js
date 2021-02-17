@@ -37,6 +37,7 @@ _profile.addEventListener("click", (e)=>{ ;
 var _definicionFiguras = document.getElementById("definicion-page3s");
 var mainDefinicion=false;
 var mainCaracteristics=false;
+var _integrantes = document.getElementsByClassName("integrantes")
 var _next = document.getElementsByClassName("next")
 var _comeback = document.getElementsByClassName("comeback")
 var number
@@ -54,23 +55,19 @@ document.getElementById("caracteristicas").addEventListener("click", (e)=>{
 })
 
 document.getElementById("integrantes-text").addEventListener("mouseover", (e)=>{
-    document.getElementById("integrantes-1").innerHTML+="Fulano";
-    document.getElementById("integrantes-2").innerHTML+="Zutano";
-    document.getElementById("integrantes-3").innerHTML+="Troyano";
-    document.getElementById("integrantes-4").innerHTML+="Malardo";
-    document.getElementById("integrantes-5").innerHTML+="Calamardo";
-    //document.getElementById("integrantes-text").createElement("<p>").setAttribute("class","integrantes-p").innerHTML+= "Juanito García"
-    
+    _integrantes[0].style.display="flex"
+    _integrantes[1].style.display="flex"
+    _integrantes[2].style.display="flex"
+    _integrantes[3].style.display="flex"
+    _integrantes[4].style.display="flex"
 })
 
 document.getElementById("integrantes-text").addEventListener("mouseout", (e)=>{
-    document.getElementById("integrantes-1").innerHTML-="Fulano";
-    document.getElementById("integrantes-2").innerHTML-="Zutano";
-    document.getElementById("integrantes-3").innerHTML-="Troyano";
-    document.getElementById("integrantes-4").innerHTML-="Malardo";
-    document.getElementById("integrantes-5").innerHTML-="Calamardo";
-    //document.getElementById("integrantes-text").createElement("<p>").setAttribute("class","integrantes-p").innerHTML+= "Juanito García"
-    
+    _integrantes[0].style.display="none"
+    _integrantes[1].style.display="none"
+    _integrantes[2].style.display="none"
+    _integrantes[3].style.display="none"
+    _integrantes[4].style.display="none"
 })
 
 

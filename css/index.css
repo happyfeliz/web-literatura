@@ -4655,6 +4655,10 @@ a.container:hover {
     transition: height 0.5s;
 }
 
+#integrantes{
+    display: none;
+}
+
 /* botones de salida */
 button.next{
     background-image: url(../Images/arrow-right-short.svg);
