@@ -9,6 +9,116 @@
     /*---------------------FOR LAPTOPS----------------------------------------*/
 
   @media (min-width: 768px){
+
+/* Images Figuras 1*/
+#image-1-1{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-2{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-3{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-4{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-5{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-6{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-7{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-8{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-9{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+    
     /* CABECERA */
     header{
         width: 100%;
@@ -167,7 +277,7 @@
 #intro-text {
     font-weight: bolder;
     width: 50%;
-    height: 29em;
+    height: 85%;
     overflow: scroll;
     overflow-x: hidden;
     animation: white_text 2s;
@@ -179,13 +289,24 @@
     position: absolute;
     border-top-right-radius: 1em;
     animation: image 2s;
+    display: flex;
     border-bottom-right-radius: 1em;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     height: 1389px;
+    height: 252%;
     overflow: hidden;
     width: 48%;
     right: 0;
+}
+
+.container-aside-2 {
+    width: 100%;
+    margin: 1em 2em 2em 2em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* align-items: center; */
 }
 
     /* páginas tres */
@@ -356,7 +477,7 @@
     flex-flow: wrap;
 }
 
-.image{
+#image-1-1{
     width: 30%;
     height: 30em;
     margin-top: 1.5em;
@@ -365,12 +486,7 @@
     background-image: url(../Images/Imagen-Prueba.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-
-
-
-
-
+    background-position: center; 
 }
 
 /*Figura 2*/
@@ -496,6 +612,18 @@
     flex-flow: wrap;
 }
 
+#image-1-2{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
 /*Figura 3*/
 
 #figura3-page3s{
@@ -617,6 +745,18 @@
     justify-content: center;
     top: 0em;
     flex-flow: wrap;
+}
+
+#image-1-3{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
 }
 
 /*Figura 4*/
@@ -742,6 +882,18 @@
     flex-flow: wrap;
 }
 
+#image-1-4{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
 /*Figura 5*/
 
 #figura5-page3s{
@@ -863,6 +1015,18 @@
     justify-content: center;
     top: 0em;
     flex-flow: wrap;
+}
+
+#image-1-5{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
 }
 
 /*Figura 6*/
@@ -1111,6 +1275,18 @@
     flex-flow: wrap;
 }
 
+#image-1-7{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
 /*Figura 8*/
 
 #figura8-page3s{
@@ -1232,6 +1408,18 @@
     justify-content: center;
     top: 0em;
     flex-flow: wrap;
+}
+
+#image-1-8{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
 }
 
 /*Figura 9*/
@@ -1357,12 +1545,133 @@
     flex-flow: wrap;
 }
 
+#image-1-1{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
 }
 
     /* ---------------------FOR TABLETS----------------------------------------*/
 
   @media (min-width: 501px) and (max-width: 767px){
-/* CABECERA */
+
+/* Images */
+#image-1-1{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-2{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-3{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-4{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-5{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-6{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-7{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-8{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-9{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+} 
+    /* CABECERA */
 header{
         width: 100%;
         height: 18em;
@@ -1531,14 +1840,26 @@ button img{
     position: absolute;
     border-top-right-radius: 1em;
     animation: image 2s;
+    display: flex;
     border-bottom-right-radius: 1em;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     height: 1389px;
+    height: 252%;
     overflow: hidden;
     width: 48%;
     right: 0;
 }
+
+.container-aside-2 {
+    width: 100%;
+    margin: 1em 2em 2em 2em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* align-items: center; */
+}
+
 
     /* páginas tres */
     .contenido-1-page3s{
@@ -1690,6 +2011,7 @@ button img{
     /* position: relative; */
     margin-bottom: -4em;
 }
+
 
 .image{
     width: 70%;
@@ -2797,6 +3119,115 @@ ul{
 
   @media (max-width: 500px){
 
+/* Images */
+#image-1-1{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-2{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-3{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-4{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-5{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-6{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-7{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-8{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#image-1-9{
+    width: 70%;
+    height: 40%;
+    margin-top: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
     /* CABECERA */
     header{
         width: 100%;
@@ -2944,7 +3375,6 @@ ul{
     box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 40%);
     cursor: pointer;
 }
-
 #exit:hover {
     box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 60%);
 }
@@ -2957,7 +3387,7 @@ ul{
 #intro-text {
     font-weight: bolder;
     width: 94%;
-    height: 18.5em;
+    height: 28.5em;
     overflow: scroll;
     overflow-x: hidden;
     animation: white_text 2s;
@@ -2966,16 +3396,26 @@ ul{
 }
 
 #imagen-contenedor{
-    position: absolute;
+    /*position: relative; */
     border-bottom-left-radius: 1em;
     animation: image 2s;
     border-bottom-right-radius: 1em;
     justify-content: center;
     height: 12em;
+    margin-top: 1em;
     overflow: hidden;
-    bottom: 0em;
+    /* bottom: 0em; */
     width: 100%;
     left: 0;
+}
+
+.container-aside-2 {
+    width: 100%;
+    margin: 1em 2em 2em 2em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 
@@ -4396,6 +4836,8 @@ footer {
     cursor: pointer; 
 }
 
+
+
 #conclusiones{
     height: 2em;
     /* text-align: center; */
@@ -4421,6 +4863,34 @@ div#container span.number-1-page2:hover{
 a.container:hover {
     background-color: rgba(255, 255, 255, 0.707);
 }
+
+#lateral-2{
+    height: 38em;
+    border-radius: 1em;
+    width: 18em;
+    background-color: #176de4;
+    display: flex;
+    flex-flow: column;
+    overflow-y: scroll;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 1em;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0px 0px 8px 1px rgb(0 0 0 / 40%);
+}
+
+#lateral-h1{
+    font-size: 2em;
+    margin: 0.67em 0;
+    width: 6.5em;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    border-radius: 1em;
+    box-shadow: none;
+}
+
 
 /* Figuras Retóricas */
 
