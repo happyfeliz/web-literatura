@@ -1001,6 +1001,18 @@
     filter: hue-rotate(40deg); 
 }
 
+#image-9-10{
+    width: 30%;
+    height: 30em;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    margin-left: 2em;
+    background-image: url("https://media.giphy.com/media/dUZJYyO9rDksQOspWr/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    filter: hue-rotate(40deg); 
+}
 
     
     /* CABECERA */
