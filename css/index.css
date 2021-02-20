@@ -422,19 +422,6 @@
     filter: hue-rotate(40deg);  
 }
 
-#image-4-9{
-    width: 30%;
-    height: 30em;
-    margin-top: 1.5em;
-    border-radius: 1em;
-    margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    filter: hue-rotate(40deg);  
-}
-
 /* Images Figuras 5*/
 #image-5-1{
     width: 30%;
@@ -442,10 +429,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url(../Images/img_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg); 
 }
 
 #image-5-2{
@@ -454,10 +442,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/1X7cYIfuYOzI7sJPFg/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-5-3{
@@ -466,10 +455,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url(../Images/img_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg); 
 }
 
 #image-5-4{
@@ -478,10 +468,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url(../Images/img_3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg); 
 }
 
 #image-5-5{
@@ -490,10 +481,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/6Do13TV1OfOF2/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-5-6{
@@ -502,10 +494,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url(../Images/img_4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-5-7{
@@ -514,10 +507,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/WpU3cUQACRSbQWzJzA/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-5-8{
@@ -526,23 +520,13 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url(../Images/img_5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
-#image-5-9{
-    width: 30%;
-    height: 30em;
-    margin-top: 1.5em;
-    border-radius: 1em;
-    margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-}
 
 /* Images Figuras 6*/
 #image-6-1{
