@@ -324,10 +324,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/zuNdVweFYGXy8/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg); 
 }
 
 #image-4-2{
@@ -336,10 +337,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://i.pinimg.com/originals/aa/d1/5e/aad15e4d3f109698cc1748c8994693e9.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-4-3{
@@ -348,10 +350,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/3LrK7Q7UhF5MnhZ5ja/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-4-4{
@@ -360,10 +363,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://www.queensu.ca/artsci_online/sites/default/files/styles/hero_image/public/img/course/cwri_295-lamp.jpg?itok=4lEszrEF");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-4-5{
@@ -372,10 +376,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://i2.wp.com/interestingliterature.com/wp-content/uploads/2015/02/writing-skills.jpg?ssl=1");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-4-6{
@@ -384,10 +389,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/xThuW63GHzZUZNmgHm/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-4-7{
@@ -396,10 +402,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://www.surrey.ac.uk/sites/default/files/styles/image_gallery/public/2020-04/top-jobs-english-literature-creative-writing-media.jpg?itok=A0sVUqHX");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-4-8{
@@ -408,10 +415,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-4-9{
@@ -423,7 +431,8 @@
     background-image: url(../Images/Imagen-Prueba.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 /* Images Figuras 5*/
@@ -773,7 +782,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/1X7cYIfuYOzI7sJPFg/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -785,7 +794,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://static1.diariovasco.com/www/multimedia/202003/31/media/cortadas/escritura-kvzH-U1007330736113i-1248x770@Diario%20Vasco.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -797,7 +806,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/05/22164550/Maquina-de-escribir.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -809,7 +818,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/GuzOqnYjaV2DVav0hP/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -821,7 +830,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://i1.wp.com/www.infotecarios.com/wp-content/uploads/lectura-1.jpg?ssl=1");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -833,7 +842,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/7JEPMRdfPLfq1sjZUJ/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -845,7 +854,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/3o6ozoEW3w17FwhjgY/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -857,7 +866,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/ydMElLbfD72yA/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -882,7 +891,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/ydMElLbfD72yA/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
