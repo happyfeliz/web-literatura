@@ -538,7 +538,8 @@
     background-image: url("https://i.redd.it/6jw9ytw9lxsy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-6-2{
@@ -551,6 +552,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-6-3{
@@ -563,6 +565,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-6-4{
@@ -574,6 +577,7 @@
     background-image: url("https://www.gasteizhoy.com/wp-content/uploads/2020/02/escritura-antigua.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    filter: hue-rotate(40deg); 
     background-position: center; 
 }
 
@@ -587,6 +591,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-6-6{
@@ -599,6 +604,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-6-7{
@@ -611,6 +617,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-6-8{
@@ -623,6 +630,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 /* Images Figuras 7*/
@@ -635,7 +643,8 @@
     background-image: url("https://www.educaciontrespuntocero.com/wp-content/uploads/2020/01/903499__classical-literature_p.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg);  
 }
 
 #image-7-2{
@@ -648,6 +657,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-7-3{
@@ -660,6 +670,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-7-4{
@@ -672,6 +683,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-7-5{
@@ -684,6 +696,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-7-6{
@@ -696,6 +709,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-7-7{
@@ -708,6 +722,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-7-8{
@@ -720,6 +735,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-7-9{
@@ -732,6 +748,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-7-10{
@@ -744,6 +761,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 
@@ -758,6 +776,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-8-2{
@@ -770,6 +789,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-8-3{
@@ -782,6 +802,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-8-4{
@@ -794,6 +815,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-8-5{
@@ -806,6 +828,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-8-6{
@@ -818,6 +841,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-8-7{
@@ -830,6 +854,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-8-8{
@@ -842,6 +867,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-8-9{
@@ -850,10 +876,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/xUPGcCEoY4LKQGOrFm/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 /* Images Figuras 9*/
@@ -867,6 +894,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-9-2{
@@ -875,10 +903,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/3ohc0Ta6SNArJiirg4/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-9-3{
@@ -887,10 +916,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://us.123rf.com/450wm/pasiphae/pasiphae1403/pasiphae140300105/27335078-el-hombre-est%C3%A1-escribiendo-en-un-papel-de-top-secret.jpg?ver=6");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-9-4{
@@ -899,10 +929,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/3o7aDbQFJjUlVmNgUU/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-9-5{
@@ -911,10 +942,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://misanimales.com/wp-content/uploads/2015/02/perros-de-la-literatura.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-9-6{
@@ -923,10 +955,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/l2R0b3n2UlFKUlBPW/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-9-7{
@@ -935,10 +968,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://lasprimeras.com.do/wp-content/uploads/2020/11/Literatura1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-9-8{
@@ -947,10 +981,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://cdn2.hubspot.net/hubfs/533390/Fotos_blogs/Academia/2017/diciembre/Relacion-entre-teatro-y-literatura.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 #image-9-9{
@@ -959,10 +994,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/f0SFw1gXlmkc8/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg); 
 }
 
 
