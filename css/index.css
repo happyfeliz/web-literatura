@@ -123,10 +123,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url("https://noticiassin.com/wp-content/uploads/2019/05/7ccfec71-foto-principal2.jpg");
+    background-image: url("https://media.wsimag.com/attachments/2f10e01cb926f0839296045a6bfa93cf154f2b62/store/fill/1090/613/d8b2fea5b57c51d37192a1be04cc32b660b3e6ed279f2fd37d18df7990e2/Escribir-un-diario.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg);
 }
 
 #image-2-2{
@@ -135,10 +136,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://conceptodefinicion.de/wp-content/uploads/2018/01/Prosopopeya2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg);
 }
 
 #image-2-3{
@@ -147,10 +149,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://ruizhealytimes.com/wp-content/uploads/2015/05/literatura.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg); 
 }
 
 #image-2-4{
@@ -159,10 +162,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/l4Ki6RXMtgJ5N8n0Q/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg);
 }
 
 #image-2-5{
@@ -171,10 +175,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://www.ambientum.com/wp-content/uploads/2018/03/reloj-tiempo-vacaciones.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    filter: hue-rotate(40deg); 
 }
 
 #image-2-6{
@@ -183,10 +188,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://media.giphy.com/media/eBmv7914HRAty/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    filter: hue-rotate(40deg);
 }
 
 #image-2-7{
@@ -195,34 +201,11 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
+    background-image: url("https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/58d4e5a65bafe81eff40e274/escitura-a-mano_0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-}
-
-#image-2-8{
-    width: 30%;
-    height: 30em;
-    margin-top: 1.5em;
-    border-radius: 1em;
-    margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-}
-
-#image-2-9{
-    width: 30%;
-    height: 30em;
-    margin-top: 1.5em;
-    border-radius: 1em;
-    margin-left: 2em;
-    background-image: url(../Images/Imagen-Prueba.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
+    filter: hue-rotate(40deg);
 }
 
 /* Images Figuras 3*/
@@ -1299,6 +1282,7 @@
     top: 0;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 #figura1-content-tittle-1 {
@@ -1311,10 +1295,11 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
-    height: -webkit-fill-available;
+    height: 30em;
     top: 0;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 
@@ -1332,6 +1317,7 @@
     top: 0;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 #figura1-content-image-container {
@@ -1425,6 +1411,7 @@
     top: 0;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 #figura2-content-tittle-1 {
@@ -1437,9 +1424,10 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
-    height: -webkit-fill-available;
+    height: 30em;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -1457,6 +1445,7 @@
     top: 0;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 #figura2-content-image-container {
@@ -1549,6 +1538,7 @@
     top: 0;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 #figura3-content-tittle-1 {
@@ -1561,10 +1551,11 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
-    height: -webkit-fill-available;
+    height: 30em;
     top: 0;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 #figura3-content-tittle2 {
@@ -1580,6 +1571,7 @@
     height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -1671,6 +1663,7 @@
     height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -1684,10 +1677,11 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
-    height: -webkit-fill-available;
+    height: 30em;
     top: 0;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 #figura4-content-tittle2 {
@@ -1704,6 +1698,7 @@
     top: 0;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 #figura4-content-image-container {
@@ -1795,6 +1790,7 @@
     height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -1808,9 +1804,10 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
-    height: -webkit-fill-available;
+    height: 30em;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -1827,6 +1824,7 @@
     height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -1914,6 +1912,7 @@
     padding: 10px;
     align-items: center;
     width: 33em;
+    overflow-y: scroll;
     margin-bottom: 1em;
     height: -webkit-fill-available;
     top: 0;
@@ -1931,8 +1930,9 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
-    height: -webkit-fill-available;
+    height: 30em;
     top: 0;
+    overflow-y: scroll;
     margin-top: 1em;
     position: relative;
 }
@@ -1949,6 +1949,7 @@
     margin-bottom: 1em;
     height: -webkit-fill-available;
     top: 0;
+    overflow-y: scroll;
     margin-top: 1em;
     position: relative;
 }
@@ -2041,6 +2042,7 @@
     height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -2054,9 +2056,10 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
-    height: -webkit-fill-available;
+    height: 30em;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -2073,6 +2076,7 @@
     height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -2163,6 +2167,7 @@
     margin-bottom: 1em;
     height: -webkit-fill-available;
     top: 0;
+    overflow-y: scroll;
     margin-top: 1em;
     position: relative;
 }
@@ -2177,9 +2182,10 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
-    height: -webkit-fill-available;
+    height: 30em;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -2196,6 +2202,7 @@
     height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -2288,6 +2295,7 @@
     height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -2301,9 +2309,10 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
-    height: -webkit-fill-available;
+    height: 30em;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -2317,6 +2326,7 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
+    overflow-y: scroll;
     height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
@@ -2407,6 +2417,7 @@
     padding: 10px;
     align-items: center;
     width: 33em;
+    overflow-y: scroll;
     margin-bottom: 1em;
     height: -webkit-fill-available;
     top: 0;
@@ -2424,9 +2435,10 @@
     align-items: center;
     width: 33em;
     margin-bottom: 1em;
-    height: -webkit-fill-available;
+    height: 30em;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -2443,6 +2455,7 @@
     height: -webkit-fill-available;
     top: 0;
     margin-top: 1em;
+    overflow-y: scroll;
     position: relative;
 }
 
@@ -4154,6 +4167,7 @@ ul{
 }
 
 #figura4-content-tittle {
+    overflow-y: scroll;
     background-color: #ececec;
     width: 90%;
     overflow: scroll;
@@ -4200,6 +4214,7 @@ ul{
 }
 
 #figura4-content-tittle2{
+    overflow-y: scroll;
     background-color: #ececec;
     width: 90%;
     overflow: scroll;
@@ -4299,6 +4314,7 @@ ul{
     top: 0;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 #figura5-content-tittle-1{
@@ -4315,6 +4331,7 @@ ul{
     bottom: 0%;
     margin-top: 1em;
     position: relative;
+    overflow-y: scroll;
 }
 
 #figura5-content-tittle-h2 {
@@ -4347,6 +4364,7 @@ ul{
     /* margin-top: 0.5em; */
     /* position: relative; */
     margin-bottom: -4em;
+    overflow-y: scroll;
 }
 
 #figura5-content-image {
@@ -4466,6 +4484,7 @@ ul{
 }
 
 #figura6-content-tittle2{
+    overflow-y: scroll;
     background-color: #ececec;
     width: 90%;
     overflow: scroll;
@@ -8094,7 +8113,7 @@ body{
 }
 
 #integrantes-text:hover{
-    height: 12em;
+    height: 14em;
     transition: height 0.5s;
 }
 

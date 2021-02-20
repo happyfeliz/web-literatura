@@ -58,13 +58,9 @@ document.getElementById("integrantes-text").addEventListener("mouseover", (e)=>{
     _integrantes[0].style.display="flex"
     _integrantes[1].style.display="flex"
     _integrantes[2].style.display="flex"
-    _integrantes[3].style.display="flex"
-    _integrantes[4].style.display="flex"
 })
 
 document.getElementById("integrantes-text").addEventListener("mouseout", (e)=>{
-    setTimeout(_integrantes[4].style.display="none",400)
-    setTimeout(_integrantes[3].style.display="none",300)
     setTimeout(_integrantes[2].style.display="none",200)
     setTimeout(_integrantes[1].style.display="none",100)
     _integrantes[0].style.display="none"

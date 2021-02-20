@@ -60,9 +60,11 @@ document.getElementById("integrantes-text").addEventListener("mouseover", (e)=>{
     _integrantes[2].style.display="flex"
     _integrantes[3].style.display="flex"
     _integrantes[4].style.display="flex"
+    _integrantes[5].style.display="flex"
 })
 
 document.getElementById("integrantes-text").addEventListener("mouseout", (e)=>{
+    setTimeout(_integrantes[5].style.display="none",400)
     setTimeout(_integrantes[4].style.display="none",400)
     setTimeout(_integrantes[3].style.display="none",300)
     setTimeout(_integrantes[2].style.display="none",200)
@@ -99,15 +101,6 @@ document.getElementById("figura6").addEventListener("click", (e)=>{
 
 document.getElementById("figura7").addEventListener("click", (e)=>{
     document.getElementById("figura7-page3s").style.display="flex";
-    figura1=true;
-})
-
-document.getElementById("figura8").addEventListener("click", (e)=>{
-    document.getElementById("figura8-page3s").style.display="flex";
-    figura1=true;
-})
-document.getElementById("figura9").addEventListener("click", (e)=>{
-    document.getElementById("figura9-page3s").style.display="flex";
     figura1=true;
 })
 
@@ -178,25 +171,6 @@ _next[12].addEventListener("click",(e)=>{
     document.getElementById("figura7-page3s-ej").style.display="flex";
 })
 
-_next[13].addEventListener("click",(e)=>{
-    document.getElementById("figura7-page3s-ej").style.display="none";
-    document.getElementById("figura8-page3s").style.display="flex";
-})
-
-_next[14].addEventListener("click",(e)=>{
-    document.getElementById("figura8-page3s").style.display="none";
-    document.getElementById("figura8-page3s-ej").style.display="flex";
-})
-
-_next[15].addEventListener("click",(e)=>{
-    document.getElementById("figura8-page3s-ej").style.display="none";
-    document.getElementById("figura9-page3s").style.display="flex";
-})
-
-_next[16].addEventListener("click",(e)=>{
-    document.getElementById("figura9-page3s").style.display="none";
-    document.getElementById("figura9-page3s-ej").style.display="flex";
-})
 
 //botón comeback
 _comeback[0].addEventListener("click",(e)=>{
@@ -264,25 +238,6 @@ _comeback[12].addEventListener("click",(e)=>{
     document.getElementById("figura7-page3s").style.display="flex";
 })
 
-_comeback[13].addEventListener("click",(e)=>{
-    document.getElementById("figura8-page3s").style.display="none";
-    document.getElementById("figura7-page3s-ej").style.display="flex";
-})
-
-_comeback[14].addEventListener("click",(e)=>{
-    document.getElementById("figura8-page3s-ej").style.display="none";
-    document.getElementById("figura8-page3s").style.display="flex";
-})
-
-_comeback[15].addEventListener("click",(e)=>{
-    document.getElementById("figura9-page3s").style.display="none";
-    document.getElementById("figura8-page3s-ej").style.display="flex";
-})
-
-_comeback[16].addEventListener("click",(e)=>{
-    document.getElementById("figura9-page3s-ej").style.display="none";
-    document.getElementById("figura9-page3s").style.display="flex";
-})
 
 //botón exit
 
@@ -345,18 +300,4 @@ _exit[14].addEventListener("click", (e)=>{
 
 _exit[15].addEventListener("click", (e)=>{
     document.getElementById("figura7-page3s-ej").style.display="none";
-})
-_exit[16].addEventListener("click", (e)=>{
-    document.getElementById("figura8-page3s").style.display="none";
-})
-
-_exit[17].addEventListener("click", (e)=>{
-    document.getElementById("figura8-page3s-ej").style.display="none";
-})
-_exit[18].addEventListener("click", (e)=>{
-    document.getElementById("figura9-page3s").style.display="none";
-})
-
-_exit[19].addEventListener("click", (e)=>{
-    document.getElementById("figura9-page3s-ej").style.display="none";
 })
