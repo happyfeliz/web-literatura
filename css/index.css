@@ -761,7 +761,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url("https://media.giphy.com/media/1X7cYIfuYOzI7sJPFg/giphy.gif");
+    background-image: url(../Images/Elipsis.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -774,7 +774,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url("https://static1.diariovasco.com/www/multimedia/202003/31/media/cortadas/escritura-kvzH-U1007330736113i-1248x770@Diario%20Vasco.jpg");
+    background-image: url(../Images/Epífora.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -787,7 +787,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url("https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/05/22164550/Maquina-de-escribir.jpg");
+    background-image: url(../Images/Exclamación.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -800,7 +800,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url("https://media.giphy.com/media/GuzOqnYjaV2DVav0hP/giphy.gif");
+    background-image: url(../Images/Interrogación\ Retórica.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -813,7 +813,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url("https://i1.wp.com/www.infotecarios.com/wp-content/uploads/lectura-1.jpg?ssl=1");
+    background-image: url(../Images/Onomatopeya.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -826,7 +826,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url("https://media.giphy.com/media/7JEPMRdfPLfq1sjZUJ/giphy.gif");
+    background-image: url(../Images/Paralelismo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -839,7 +839,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url("https://media.giphy.com/media/3o6ozoEW3w17FwhjgY/giphy.gif");
+    background-image: url(../Images/Paranomasia.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -852,7 +852,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url("https://media.giphy.com/media/ydMElLbfD72yA/giphy.gif");
+    background-image: url(../Images/Pleonasmo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -865,7 +865,7 @@
     margin-top: 1.5em;
     border-radius: 1em;
     margin-left: 2em;
-    background-image: url("https://media.giphy.com/media/xUPGcCEoY4LKQGOrFm/giphy.gif");
+    background-image: url(../Images/Epanadiplosis.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -1167,6 +1167,35 @@
     overflow-x: hidden;
     animation: white_text 2s;
     margin: 5em 0.8em 0em;
+    color: white;
+}
+
+#biblio{
+    position: fixed;
+    display: none;
+    border-radius: 1em;
+    width: 80%;
+    /* flex-flow: wrap; */
+    left: 6.5em;
+    top: 5em;
+    height: 80%;
+    flex-flow: wrap;
+    animation: introduccion_intro 2s;
+    overflow: hidden;
+}
+
+#bliblio-text{
+    font-weight: bolder;
+    width: 50%;
+    height: 85%;
+    overflow: scroll;
+    overflow-x: hidden;
+    animation: white_text 2s;
+    margin: 5em 0.8em 0em;
+    color: white;
+}
+
+#bliblio-text a{
     color: white;
 }
 
@@ -3654,6 +3683,32 @@ button img{
     margin: 5em 0.8em 0em;
     color: white;
 }
+
+#biblio{
+    position: fixed;
+    display: none;
+    border-radius: 1em;
+    width: 80%;
+    /* flex-flow: wrap; */
+    left: 6.5em;
+    top: 5em;
+    height: 80%;
+    flex-flow: wrap;
+    animation: introduccion_intro 2s;
+    overflow: hidden;
+}
+
+#biblio-text{
+    font-weight: bolder;
+    width: 50%;
+    height: 29em;
+    overflow: scroll;
+    overflow-x: hidden;
+    animation: white_text 2s;
+    margin: 5em 0.8em 0em;
+    color: white;
+}
+
 
 #imagen-contenedor{
     position: absolute;
@@ -6225,6 +6280,31 @@ ul{
     color: white;
 }
 
+#biblio{
+    position: fixed;
+    display: none;
+    border-radius: 1em;
+    width: 80%;
+    /* flex-flow: wrap; */
+    left: 3em;
+    top: 5em;
+    height: 80%;
+    flex-flow: column;
+    animation: introduccion_intro 2s;
+    overflow: hidden;
+}
+
+#biblio-text{
+    font-weight: bolder;
+    width: 94%;
+    height: 28.5em;
+    overflow: scroll;
+    overflow-x: hidden;
+    animation: white_text 2s;
+    margin: 1em 0.8em 0em;
+    color: white;
+}
+
 #imagen-contenedor{
     /*position: relative; */
     border-bottom-left-radius: 1em;
@@ -8241,7 +8321,7 @@ button.next{
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 ::-webkit-scrollbar-track {
-    background-color: #ececec;
+    background-color: transparent;
     border-radius: 10px;
 }
 

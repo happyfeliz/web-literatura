@@ -29,7 +29,17 @@ _profile.addEventListener("click", (e)=>{ ;
 var _conclusions = document.getElementById("conclusiones");
 var _exit = document.getElementById("exit");
 var _intro= document.getElementById("intro");
+var _exit2 = document.getElementsByClassName("exit")
 
+
+document.getElementById("bibliografia").addEventListener("click",(e)=>{
+    setTimeout(()=>{document.getElementById("biblio").style.backgroundColor="#7ad2b9"},2000)
+    document.getElementById("biblio").style.display="flex"
+})
+
+_exit2[0].addEventListener("click",(e)=>{
+    document.getElementById("biblio").style.display="none"
+})
 
 _conclusions.addEventListener("click", (e)=>{
     setTimeout(()=>{_intro.style.backgroundColor="#7ad2b9"},2000)
